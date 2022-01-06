@@ -4,13 +4,13 @@ title: Accessibility
 sidebar_label: Accessibility
 ---
 
-## Installation:
+## Installation
 
 Please install screen reader on your device. We recommend **NVDA** (Windows), VoiceOver (MacOS and iOS) and TalkBack (Android).
 
 Once it is installed, start the NVDA application and you are ready to go with your screen reader.
 
-## Introduction:
+## Introduction
 
 An example of accessibility would be any content or functionality that is fully available to and usable by people with disabilities.
 
