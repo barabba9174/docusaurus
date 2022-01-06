@@ -1,7 +1,7 @@
 module.exports = {
   title: 'New Starter Documentation',
   tagline: 'Built by NTT devs for NTT devs',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docusaurus-lime-two.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -15,14 +15,14 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/doc4',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/romillyeveleigh/docusaurus/',
           label: 'GitHub',
           position: 'right',
         },
@@ -70,7 +70,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/romillyeveleigh/docusaurus/',
             },
           ],
         },
