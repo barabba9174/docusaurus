@@ -4,7 +4,9 @@ title: Accessibility
 sidebar_label: Accessibility
 ---
 
-How to make sure your code follows the rules for accessibility
+Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+
+Read this guide to help make sure your code follows the rules for accessibility...
 
 ## Installation
 
