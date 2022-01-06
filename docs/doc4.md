@@ -4,6 +4,8 @@ title: Accessibility
 sidebar_label: Accessibility
 ---
 
+How to make sure your code follows the rules for accessibility
+
 ## Installation
 
 Please install screen reader on your device. We recommend **NVDA** (Windows), VoiceOver (MacOS and iOS) and TalkBack (Android).
