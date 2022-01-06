@@ -10,8 +10,6 @@ Please install screen reader on your device. We recommend **NVDA** (Windows), Vo
 
 Once it is installed, start the NVDA application and you are ready to go with your screen reader.
 
----
-
 ## Introduction:
 
 An example of accessibility would be any content or functionality that is fully available to and usable by people with disabilities.
