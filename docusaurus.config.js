@@ -8,10 +8,10 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'New Starter Doc',
+      title: 'NTT Dev Help',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/ntt-logo.png',
       },
       links: [
         {
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NTT Dev Help. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -86,13 +86,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/romillyeveleigh/docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/romillyeveleigh/docusaurus/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
