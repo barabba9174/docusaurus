@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'NTT Dev Help',
+      title: 'NTT Dev Help 🤔',
       logo: {
         alt: 'My Site Logo',
         src: 'img/ntt-logo.png',
