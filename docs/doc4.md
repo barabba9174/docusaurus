@@ -6,8 +6,6 @@ sidebar_label: Accessibility
 
 **Installation:**
 
-Edited in github 
-
 Please install screen reader on your device. We recommend **NVDA** (Windows), VoiceOver (MacOS and iOS) and TalkBack (Android).
 
 Once it is installed, start the NVDA application and you are ready to go with your screen reader.
