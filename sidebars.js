@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc6','doc5','doc4', 'doc1', 'doc2', 'doc3', ],
+    Guides: [ 'doc7','doc5','doc4','doc6',],
     Features: ['mdx'],
+    Examples: [ 'doc1']
   },
 };

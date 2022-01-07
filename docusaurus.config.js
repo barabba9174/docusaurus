@@ -13,9 +13,9 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/ntt-logo.png',
       },
-      items: [
+      links: [
         {
-          to: 'docs/doc4',
+          to: 'docs/doc7',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

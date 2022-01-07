@@ -1,7 +1,7 @@
 ---
 id: doc5
-title: NextJs 
-sidebar_label: NextJs
+title: Next.js 
+sidebar_label: Next.js
 ---
 
 ## Next.js is a React Framework.
