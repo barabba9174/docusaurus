@@ -1,202 +1,66 @@
 ---
 id: doc5
-title: New Page
-sidebar_label: New Page
+title: NextJs 
+sidebar_label: NextJs
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+## Next.js is a React Framework.
 
-## Markdown Syntax
+Next.js aims to have best-in-class developer experience and many built-in features, such as:
 
-To serve as an example page when styling markdown based Docusaurus sites.
+*	Page-based routing system (with support for dynamic routes)
+*	Pre-rendering, both static generation (SSG) and server-side rendering (SSR) are supported on a per-page basis
+*	Automatic code splitting for faster page loads
+*	Client-side routing with optimized prefetching
+*	Built-in CSS and Sass support, and support for any CSS-in-JS library
+*	Development environment with Fast Refresh support (means when you make changes to files, Next.js automatically applies the changes in the browser almost instantly. No refresh needed. This will help you iterate on your app quickly.)
+*	API routes to build API endpoints with Serverless Functions
+*	Fully extendable
 
-## Headers
+Next.js is used in tens of thousands of production-facing websites and web applications, including many of the world's largest brands.
 
-# H1 - Create the best documentation
+## Software needed to start working on Next JS:
 
-## H2 - Create the best documentation
+*	**Node.js** version **10.13** or later
+*	Text Editor **(VS Code)** and terminal app (if you are on Windows, we recommend downloading **Git** for Windows and use **Git Bash** that comes with it)
 
-### H3 - Create the best documentation
+Once you clone **btplc** repositories you will get a template where you have to select Next JS
 
-#### H4 - Create the best documentation
+![alt text](/img/picture1.png)
+ 
+## Working with Next JS:
 
-##### H5 - Create the best documentation
+*	**pages/index.js** is the main index file in Next JS
+*	In Next.js, a **page is a React Component** exported from a file in the **pages directory**.
+Pages are associated with a route based on their file name. 
 
-###### H6 - Create the best documentation
+For example, in development:
 
----
+* **pages/index.js** is associated with the **/ route**.
+*	**pages/feeds/first-feeds.js** is associated with the **/feeds/first-feeds** route.
 
-## Emphasis
+This is how you can create different pages in Next.js.
+Simply create a JS file under the pages directory, and the path to the file becomes the URL path.
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+*	In Next.js, when linking between pages on websites we use the **Link Component** from **next/link** to wrap the `<a>` tag. 
+`<Link>` allows you to do client-side navigation to a different page in the application.
+Just import the Link component from next/link by adding this line at the top:
+import Link from 'next/link'
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+![alt text](/img/picture2.png)
 
-Combined emphasis with **asterisks and _underscores_**.
+As we can see, the Link component is similar to using `<a>` tags, but instead of  -->
+`<a href="…">`, we use `<Link href="…">` and put an `<a>` tag inside.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+*	Next.js has built-in support for CSS and Sass.
+To use CSS Modules, the CSS file name must end with **.module.css**.
+Import the CSS file into the component you want to style and assign a name to it, like styles
+use styles.container as the className
 
----
+![alt text](/img/picture3.png)
+ 
+In Next.js, you can add global CSS files by importing them from pages/_app.js. You cannot import global CSS anywhere else.
+The reason that global CSS can't be imported outside of pages/_app.js is that global CSS affects all elements on the page.
 
-## Lists
-
-1. First ordered list item
-1. Another item ⋅⋅\* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number ⋅⋅1. Ordered sub-list
-1. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+*	For learnings on Pre-rendering and Data Fetching, please go to [link](https://nextjs.org/learn/basics/data-fetching)
+*	For learnings on API Routes, please go to [link](https://nextjs.org/learn/basics/api-routes)
