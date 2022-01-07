@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'New Starter Documentation',
+  title: 'New Starter Documentation Portal',
   tagline: 'Built by NTT devs for NTT devs',
   url: 'https://docusaurus-lime-two.vercel.app',
   baseUrl: '/',
@@ -39,8 +39,8 @@ module.exports = {
               to: 'docs/doc1',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Next.js',
+              to: 'docs/doc5',
             },
           ],
         },
