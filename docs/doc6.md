@@ -4,7 +4,7 @@ title: Testing
 sidebar_label: Testing
 ---
 
-## Testing React with Jest and Enzyme
+Testing React with Jest and Enzyme
 
 ### Jest
 
