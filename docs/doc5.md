@@ -36,7 +36,7 @@ Pages are associated with a route based on their file name.
 
 For example, in development:
 
-* **pages/index.js** is associated with the **/ route**.
+* **pages/index.js** is associated with the **/** route.
 *	**pages/feeds/first-feeds.js** is associated with the **/feeds/first-feeds** route.
 
 This is how you can create different pages in Next.js.
