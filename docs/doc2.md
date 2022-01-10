@@ -66,11 +66,6 @@ It replaced apply() and concat() and copy() method in javascript.
 ![alt text](/img/ecma/12.png)
 ![alt text](/img/ecma/13.png)
 
-Math object in JavaScript:
-![alt text](/img/ecma/14.png)
-
-Math.trunc() returns value before decimal. In above example it will return -5.
-
 ### Exponentiation Operator (\*\*):
 
 ![alt text](/img/ecma/15.png)
