@@ -4,7 +4,7 @@ title: ECMA Script
 sidebar_label: ECMA Script
 ---
 
-## ECMA Script / ES6 / Modern JS Video Material
+## ECMA Script / ES6 / Modern JS
 
 In 1996 JavaScript was created. In 1997 it was then submitted to ECMA International for standardization, which resulted in ECMAScript.
 
@@ -36,7 +36,8 @@ Template Literals methods:
 Swap two number without using third variable:
 ![alt text](/img/ecma/3.png)
 
-Object Destructuring:
+### Object Destructuring:
+
 ![alt text](/img/ecma/4.png)
 
 ### Arrow Functions / Fat Arrow Functions:
@@ -60,6 +61,7 @@ Here b=2 and c=2 is given in function parameter is called default parameter.
 
 Syntax of Spread operator is similar as Rest Parameter but it works differently.  
 It replaced apply() and concat() and copy() method in javascript.
+
 ![alt text](/img/ecma/11.png)
 ![alt text](/img/ecma/12.png)
 ![alt text](/img/ecma/13.png)
